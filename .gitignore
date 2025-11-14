@@ -1,0 +1,17 @@
+# Test dosyaları
+test-*.html
+test-*.md
+
+# IDE ayarları
+.vscode/
+.idea/
+
+# Kiro dosyaları
+.kiro/
+
+# Node modules (eğer gelecekte kullanılırsa)
+node_modules/
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
