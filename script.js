@@ -302,7 +302,7 @@ function initializeEventListeners() {
 // Service Worker kaydı - PWA için
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/calculator/service-worker.js')
+    navigator.serviceWorker.register('./service-worker.js')
       .then(registration => console.log('Service Worker kayıtlı'))
       .catch(err => console.log('Service Worker kayıt hatası:', err));
   });

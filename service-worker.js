@@ -1,10 +1,12 @@
 // Service Worker - Offline çalışma için
 const CACHE_NAME = 'calculator-v1';
 const urlsToCache = [
-  '/calculator/',
-  '/calculator/index.html',
-  '/calculator/style.css',
-  '/calculator/script.js'
+  './',
+  './index.html',
+  './style.css',
+  './script.js',
+  './manifest.json',
+  './icon.svg'
 ];
 
 // Kurulum - dosyaları cache'e al
