@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <!-- Display alanı -->
+        <div id="display" class="display">0</div>
+        
+        <!-- Keypad tuş takımı -->
+        <div id="keypad" class="keypad">
+            <!-- İlk satır: Clear ve operatörler -->
+            <button class="btn btn-clear" data-action="clear">C</button>
+            <button class="btn btn-operator" data-action="divide" data-operator="/">/</button>
+            <button class="btn btn-operator" data-action="multiply" data-operator="*">*</button>
+            <button class="btn btn-operator" data-action="subtract" data-operator="-">-</button>
+            
+            <!-- İkinci satır: 7, 8, 9, + -->
+            <button class="btn btn-number" data-number="7">7</button>
+            <button class="btn btn-number" data-number="8">8</button>
+            <button class="btn btn-number" data-number="9">9</button>
+            <button class="btn btn-operator" data-action="add" data-operator="+">+</button>
+            
+            <!-- Üçüncü satır: 4, 5, 6 -->
+            <button class="btn btn-number" data-number="4">4</button>
+            <button class="btn btn-number" data-number="5">5</button>
+            <button class="btn btn-number" data-number="6">6</button>
+            <button class="btn btn-equals" data-action="equals" style="grid-row: span 2;">=</button>
+            
+            <!-- Dördüncü satır: 1, 2, 3 -->
+            <button class="btn btn-number" data-number="1">1</button>
+            <button class="btn btn-number" data-number="2">2</button>
+            <button class="btn btn-number" data-number="3">3</button>
+            
+            <!-- Beşinci satır: 0, . -->
+            <button class="btn btn-number btn-zero" data-number="0" style="grid-column: span 2;">0</button>
+            <button class="btn btn-decimal" data-action="decimal">.</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
