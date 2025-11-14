@@ -15,6 +15,27 @@ Modern ve responsive bir hesap makinesi uygulaması. HTML, CSS ve JavaScript ile
 
 [Hesap Makinesini Dene](https://nasrullahcftci.github.io/calculator/)
 
+## 📱 Mobil Uygulama Olarak Kullanım
+
+### PWA (Progressive Web App)
+Bu uygulama PWA olarak çalışır, yani mobil cihazınıza uygulama gibi yükleyebilirsiniz:
+
+**Android:**
+1. Chrome'da siteyi açın
+2. Menü (⋮) > "Ana ekrana ekle"
+3. Artık bir uygulama gibi kullanabilirsiniz!
+
+**iOS (iPhone/iPad):**
+1. Safari'de siteyi açın
+2. Paylaş butonu (□↑) > "Ana Ekrana Ekle"
+3. Artık bir uygulama gibi kullanabilirsiniz!
+
+**Özellikler:**
+- ✅ Offline çalışma
+- ✅ Ana ekranda kısayol
+- ✅ Tam ekran deneyim
+- ✅ Hızlı yükleme
+
 ## 💻 Kullanım
 
 ### Tarayıcıda Çalıştırma
