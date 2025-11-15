@@ -1,0 +1,20 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "Modern hesap makinesi uygulaması",
+  "main": "index.html",
+  "scripts": {
+    "android": "cap open android",
+    "build": "cap sync"
+  },
+  "keywords": ["calculator", "hesap-makinesi"],
+  "author": "NasrullahCftci",
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/cli": "^5.5.0"
+  },
+  "dependencies": {
+    "@capacitor/core": "^5.5.0",
+    "@capacitor/android": "^5.5.0"
+  }
+}

@@ -36,6 +36,39 @@ Bu uygulama PWA olarak çalışır, yani mobil cihazınıza uygulama gibi yükle
 - ✅ Tam ekran deneyim
 - ✅ Hızlı yükleme
 
+### APK Oluşturma (Android Uygulama Paketi)
+
+#### Yöntem 1: PWABuilder (En Kolay - Önerilen)
+1. https://www.pwabuilder.com/ adresine gidin
+2. URL'yi girin: `https://nasrullahcftci.github.io/calculator/`
+3. "Start" > "Package For Stores" > "Android" > "Generate"
+4. APK'yı indirin ve yükleyin!
+
+#### Yöntem 2: Capacitor (Gelişmiş)
+```bash
+# Gerekli paketleri yükle
+npm install
+
+# Capacitor'ı başlat
+npx cap init
+
+# Android platformunu ekle
+npx cap add android
+
+# Projeyi senkronize et
+npx cap sync
+
+# Android Studio'da aç
+npx cap open android
+
+# Android Studio'da: Build > Build Bundle(s) / APK(s) > Build APK(s)
+```
+
+**Gereksinimler:**
+- Node.js (v16+)
+- Android Studio
+- Java JDK 11+
+
 ## 💻 Kullanım
 
 ### Tarayıcıda Çalıştırma
